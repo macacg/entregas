@@ -1,0 +1,26 @@
+.main-photo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./ba1.jpg");
+  background-image: inherit;
+}
+
+.underline-dot {
+  border-bottom: thin dashed black;
+}
+#ciudad {
+  font-size: large;
+}
+
+#tamFoot {
+  font-size: medium;
+}
+
+@media screen and (min-width: 1200px) {
+  .main-photo {
+    font-size: 1.5rem;
+  }
+
+  footer {
+    font-size: 1.5rem;
+  }
+}
